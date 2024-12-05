@@ -1,10 +1,10 @@
 import React from 'react'
 import './Weathers.css'
 import cloud from './Assets/cloud.png'
-import clear from '../Assets/clear.png'
-import mist from '../Assets/mist.png'
-import rain from '../Assets/rain.png'
-import snow from '../Assets/snow.png'
+// import clear from '../Assets/clear.png'
+// import mist from '../Assets/mist.png'
+// import rain from '../Assets/rain.png'
+// import snow from '../Assets/snow.png'
 
 
 
