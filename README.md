@@ -16,5 +16,5 @@ Problem Solving:
 4. Then the problem was on the JavaScript to handle and fetch APIs which I did by using the API found on https://api.openweathermap.org and I then used the keyword let, which is used when the data is not supposed 
 to be accessible outside the block of code it's present in. Then I made a asynchronous function named Search which would accept the API, break it down into Location, Temperature, Humidity, Wind Speed.
 5. Upon testing, I found that the images don't change with the given temperatue. I am yet to learn that.
-6. 
+
 Conclusion: I completed the Weather App by 6th December, 2024.
