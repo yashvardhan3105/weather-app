@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .weather__main{
     display: flex;
     justify-content: center;
@@ -10,12 +14,14 @@
     justify-content: center ;
     padding: 10vh;
     gap: 1vh;
+    color: white;
 }
 
 .weather__smalltxt{
     align-self: flex-end;
     font-size: 15px;
     padding: 0;
+    color: white;
 }
 
 .weather__TYPEtxt input{
@@ -24,6 +30,7 @@
     border: none;
     transition-duration: 1s;
     outline: none;
+    background-color: transparent;
 }
 
 .weather__TYPEtxt input::placeholder{
@@ -32,6 +39,7 @@
     border: none;
     transition-duration: 1s;
     outline: none;
+    background-color: transparent;
 }
 
 .weather__TYPEtxt:hover input{
@@ -56,6 +64,7 @@
     border: none;
     transition-duration: 1s;
     outline: none;
+    background-color: transparent;
 }
 
 .weather__searchBttn:hover{
@@ -87,21 +96,24 @@
     box-shadow: 16px 14px 20px #0000000c;
     padding: 20px;
     margin-right: 10vh;
-    color: rgb(240, 255, 255);
+    color: rgb(0, 0, 0);
     
 }
 
 .text p{
     margin: 0;
+    color: white;
 }
 
 .weather-box{
     text-align: center;
+    color: white;
 
 }
 
 .weather-box img{
     width: 60%;
+    
 }
 
 .weather-box .temperature{
@@ -110,6 +122,7 @@
     font-size: 64px;
     line-height: 1;
     font-weight: 700;
+    color: white;
     
 }
 
@@ -117,6 +130,7 @@
     position: absolute;
     font-size: 24px;
     margin-left: 4px;
+    color: white;
     
 }
 
@@ -124,7 +138,7 @@
     font-size: 22px;
     font-weight: 500;
     text-transform: capitalize;
-    
+    color: white;
 }
 
 
@@ -137,7 +151,7 @@
     width: 100%;
     padding: 20px;
     display:flex;
-    
+    color: white;
 }
 
 
@@ -148,10 +162,12 @@
     width: 80%;
     margin-left: 1.5vh;
     display: flex;
+    color: white;
 }
 
 .weather-details .humidity{
         justify-content: flex-start;
+        color: white;
 }
 
 .weather-details .wind{
@@ -173,5 +189,7 @@
 .weather-details p{
     font-size: 15px;
     font-weight: 500;
+    color: white;
 }
+
 
