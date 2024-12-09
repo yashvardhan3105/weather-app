@@ -12,7 +12,7 @@ How I started:
 Problem Solving:
 1. The problem given to me was on the topic Weather App and in it, I had to make one input field which will contain the City/Location value and the other element was a button which will search for the City/Location.
 2. I had to also display the Temperature, Humidity, and Wind Speed. Hence I made the following divs and named them accordingly. I gave the className so that I can use the .innerHTML attribute to update the values.
-3. Now the problem was the CSS aspect or the designing, I haven't started on it yet.
+3. Then I styled the React App and made it in a black and white fashion using CSS.
 4. Then the problem was on the JavaScript to handle and fetch APIs which I did by using the API found on https://api.openweathermap.org and I then used the keyword let, which is used when the data is not supposed 
 to be accessible outside the block of code it's present in. Then I made a asynchronous function named Search which would accept the API, break it down into Location, Temperature, Humidity, Wind Speed.
 5. Upon testing, I found that the images don't change with the given temperatue. I am yet to learn that.
